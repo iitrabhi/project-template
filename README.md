@@ -21,14 +21,3 @@ The folders follow a 5-level wide and 3-level deep structure. That means it is p
 
 **Note: See the readme file inside the folder for more details.**
 
-# Submission checklist
-
-1. All the figures and tables have a caption with inference.
-2. All the figures and tables have been cited in the main text.
-3. All the reviewers are cited in the manuscript.
-4. The manuscript is spell-checked and grammar-checked.
-5. Each highlight is less than 100 characters.
-6. There is consistency in symbols, i.e. you have not used different symbols for the same entity.
-7. All the symbols used, follow the nomenclature guidelines.
-8. All the cross-references are correct.
-

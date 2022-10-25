@@ -1,4 +1,5 @@
-# paper-template
+# Manuscript
+
 This is a latex template to write research papers.
 
 ## Clean working with windows

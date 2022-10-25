@@ -1,2 +1,2 @@
-# project-template
+# Latex source
 This is a template repository for research projects.

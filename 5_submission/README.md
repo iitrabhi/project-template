@@ -9,7 +9,7 @@ This folder will contain all the submission files.  It is a good practice to kee
 
 **Note: There are multiple other kinds of files that are required for submission but may vary as per the selected journal. See the journal's website for more details and include all of them in this folder.**
 
-# Submission checklist
+## Submission checklist
 
 1. All the figures and tables have a caption with inference.
 2. All the figures and tables have been cited in the main text.
@@ -19,6 +19,27 @@ This folder will contain all the submission files.  It is a good practice to kee
 6. There is consistency in symbols, i.e. you have not used different symbols for the same entity.
 7. All the symbols used, follow the nomenclature guidelines.
 8. All the cross-references are correct.
+
+---
+
+## Review Guidelines
+
+- **Set 1:** This is the most important part of the paper and will help the reviewer make a first impression of your article. It is very important that this set is 100% correct and clearly conveys the central idea of the paper.
+  `Highlights` → `Abstract` → `Conclusion` → `Figures, Tables, and Captions` 
+- **Set 2:** This is the main content of the paper. If the reviewer is impressed by Set-1, then only they will look into this set during the review.
+  `Cross-reference` → `Symbols` → `Main Text`
+
+**Here are general guidelines before you submit your paper to the journal.**
+
+- **Highlights.** These should be less than 100 characters per bullet point and should properly convey all the contributions, originality, and values of the paper. If required, you can also add your findings to the highlight, but they are not necessary.
+- **Abstract.** Your abstract must clearly convey the novelties of your paper and highlight the primary contributions in such a manner that are easy to understand for the reviewer.
+- **Conclusion.** A reviewer will go directly to the conclusion after the abstract to check if the article is worth his time or not. Understand that this is your opportunity to bring forward the main motivation and contributions of your work.
+- `Figures.` Check whether all figures are clear and properly convey the idea for which they were made.
+- `Tables.` Check the table headings and values for any kind of inconsistency.
+- `Captions.` Check whether all captions properly summarize the figure and table. Also, check if the inference presented will help the reviewer understand the figure better. It is your responsibility to make it as easy as possible for the reviewer to understand your work.
+- `Cross-reference.` Thoroughly check all the references in the main text. Do they point to their intended entity or not?
+- `Symbols.` Check for consistency of symbols. It is a good idea first to make a list of symbols used and then go through the article to see if everything is in order. 
+- `Main Text.` Finally, read the main text and thoroughly check it for spelling and grammar mistakes.
 
 ---
 

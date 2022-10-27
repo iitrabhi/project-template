@@ -25,8 +25,11 @@ This folder will contain all the submission files.  It is a good practice to kee
 ## Review Guidelines
 
 - **Set 1:** This is the most important part of the paper and will help the reviewer make a first impression of your article. It is very important that this set is 100% correct and clearly conveys the central idea of the paper.
+
   `Highlights` → `Abstract` → `Conclusion` → `Figures, Tables, and Captions` 
+
 - **Set 2:** This is the main content of the paper. If the reviewer is impressed by Set-1, then only they will look into this set during the review.
+
   `Cross-reference` → `Symbols` → `Main Text`
 
 **Here are general guidelines before you submit your paper to the journal.**

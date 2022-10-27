@@ -8,6 +8,32 @@ Keywords: Keyword_1, Keyword_1, Keyword_1, Keyword_1, Keyword_1
 
 ---
 
+## Highlights
+
+This is a bulleted list of 3 to 6 highlights of your work. Every bullet must be less than 100 characters.
+
+- The primary novelty of your work
+- 
+- 
+- 
+- 
+- 
+
+---
+
+## List of authors
+
+You have to enter the following information of authors in the editorial manager.
+
+| Name          | University                             | email                 |      |      |
+| ------------- | -------------------------------------- | --------------------- | ---- | ---- |
+| Abhinav gupta | Indian Institute of Technology Roorkee | agupta1@ce.iitr.ac.in |      |      |
+|               |                                        |                       |      |      |
+
+
+
+---
+
 ## List of reviewers
 
 Every journal asks for a list of 6 reviewers that can review your article. You have to add the following information to the submission. 
@@ -25,14 +51,11 @@ Every journal asks for a list of 6 reviewers that can review your article. You h
 
 ---
 
-## Highlights
+## Funding Sources
 
-This is a bulleted list of 3 to 6 highlights of your work. Every bullet must be less than 100 characters.
+You have to mention all the external funding agencies.
 
-- The primary novelty of your work
--  
--  
--  
--  
--  
+| Funding Agency                         | Grant number |
+| -------------------------------------- | ------------ |
+| Science and Engineering Research Board | XXXX/XXX/XXX |
 

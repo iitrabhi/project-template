@@ -14,5 +14,5 @@ Here we will have the latex source files. I highly recommend that you use latex 
 
 Every submission has two destinations:
 
-- **Review:** If the reviewers like your paper, most likely, they will ask for a review. Once you incorporate all the reviews, you have to prepare a `rebuttal` outlining how you have answered all of their queries. The source files for the rebuttal are provided in the 10_rebuttal folder.
+- **Review:** If the reviewers like your paper, most likely, they will ask for a review. Once you incorporate all the reviews, you have to prepare a `rebuttal` outlining how you have answered all of their queries. The source files for the rebuttal are provided in the 9_rebuttal folder.
 - **Reject:** You have to find a different journal that would better suit your research and submit it there.

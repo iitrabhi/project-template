@@ -37,12 +37,12 @@ This folder will contain all the submission files.  It is a good practice to kee
 - **Highlights.** These should be less than 100 characters per bullet point and should properly convey all the contributions, originality, and values of the paper. If required, you can also add your findings to the highlight, but they are not necessary.
 - **Abstract.** Your abstract must clearly convey the novelties of your paper and highlight the primary contributions in such a manner that are easy to understand for the reviewer.
 - **Conclusion.** A reviewer will go directly to the conclusion after the abstract to check if the article is worth his time or not. Understand that this is your opportunity to bring forward the main motivation and contributions of your work.
-- `Figures.` Check whether all figures are clear and properly convey the idea for which they were made.
-- `Tables.` Check the table headings and values for any kind of inconsistency.
-- `Captions.` Check whether all captions properly summarize the figure and table. Also, check if the inference presented will help the reviewer understand the figure better. It is your responsibility to make it as easy as possible for the reviewer to understand your work.
-- `Cross-reference.` Thoroughly check all the references in the main text. Do they point to their intended entity or not?
-- `Symbols.` Check for consistency of symbols. It is a good idea first to make a list of symbols used and then go through the article to see if everything is in order. 
-- `Main Text.` Finally, read the main text and thoroughly check it for spelling and grammar mistakes.
+- **Figures.** Check whether all figures are clear and properly convey the idea for which they were made.
+- **Tables.** Check the table headings and values for any kind of inconsistency.
+- **Captions.** Check whether all captions properly summarize the figure and table. Also, check if the inference presented will help the reviewer understand the figure better. It is your responsibility to make it as easy as possible for the reviewer to understand your work.
+- **Cross-reference.** Thoroughly check all the references in the main text. Do they point to their intended entity or not?
+- **Symbols.** Check for consistency of symbols. It is a good idea first to make a list of symbols used and then go through the article to see if everything is in order. 
+- **Main Text.** Finally, read the main text and thoroughly check it for spelling and grammar mistakes.
 
 ---
 

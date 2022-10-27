@@ -1,6 +1,8 @@
 # project-template
 This is a template repository for research projects. You can fork this repo and use it as a template to start a new research project.
 
+https://user-images.githubusercontent.com/32356220/198307059-1fee5516-d918-483f-8da6-41e586f27468.mp4
+
 # Rules
 - Folder names should always be in small letters and should begin with a number.
 - No spaces are allowed in folder or file names. You have to use the underscore "_".

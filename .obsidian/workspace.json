@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2_reference_codes/README.md",
+                "file": "3_our_implementation/1_workshop/README.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2_reference_codes/README.md",
+                "file": "3_our_implementation/1_workshop/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2_reference_codes/README.md",
+                "file": "3_our_implementation/1_workshop/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2_reference_codes/README.md"
+                "file": "3_our_implementation/1_workshop/README.md"
               }
             }
           }
@@ -162,8 +162,9 @@
     "width": 407.5,
     "collapsed": true
   },
-  "active": "0ca69e5f8aef4893",
+  "active": "63609653cb12113e",
   "lastOpenFiles": [
+    "2_reference_codes/README.md",
     "1_base_papers/README.md",
     "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",
     "Day Planners/Day Planner-20221115.md",
@@ -172,7 +173,6 @@
     "Day Planners/Day Planner-20221112.md",
     "Day Planners/Day Planner-20221113.md",
     "_posts/2022/Nov/2022-11-11-matrix-multiplication-time.md",
-    "_posts/2022/Nov/().md",
-    "_posts/2022/Nov/2022-11-11-setting-up-obsidian-for-jekyll-blog.md"
+    "_posts/2022/Nov/().md"
   ]
 }

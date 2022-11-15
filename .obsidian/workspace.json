@@ -130,14 +130,6 @@
             }
           },
           {
-            "id": "2c7ad1792f48e510",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
             "id": "546e865b0c38f6f4",
             "type": "leaf",
             "state": {
@@ -148,7 +140,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "91df1807ecc83f87",
@@ -170,7 +162,7 @@
     "width": 407.5,
     "collapsed": true
   },
-  "active": "63609653cb12113e",
+  "active": "0ca69e5f8aef4893",
   "lastOpenFiles": [
     "1_base_papers/README.md",
     "_posts/2022/Feb/2022-02-15-sparsity-multiplication-order.md",

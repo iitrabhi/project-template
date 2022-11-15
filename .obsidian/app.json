@@ -3,6 +3,6 @@
   "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "3_our_implementation/images",
+  "attachmentFolderPath": "./attachments",
   "spellcheck": true
 }

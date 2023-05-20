@@ -19,7 +19,9 @@ The folders follow a 5-level wide and 3-level deep structure. That means it is p
 | 2_reference_codes    | The open-source codes relevant to your research that you find on the internet will be kept in this folder. In the field of computational mechanics, we try to find existing code implementations and study them to gain insight into the topic. |
 | 3_our_implementation | This folder will have the source code for your research. This is your actual implementation that will lead to novel findings. |
 | 4_latex_source       | Here we will have the latex source files. I highly recommend that you use latex to write your research. |
-| 5_submission         | This folder will contain all the submission files.  It is a good practice to keep all the submission files in a separate folder and review them before submitting. |
+|5_submission|This folder will contain all the submission files. It is a good practice to keep all the submission files in a separate folder and review them before submitting.|
+|6_logs |This folder will contain daily logs for the work that we do in the project|
+|7_meetings|  |
 
 **Note: See the readme file inside the folder for more details.**
 

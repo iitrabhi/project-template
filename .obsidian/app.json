@@ -4,5 +4,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./attachments",
-  "spellcheck": true
+  "spellcheck": true,
+  "showInlineTitle": false
 }

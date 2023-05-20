@@ -21,7 +21,7 @@ The folders follow a 5-level wide and 3-level deep structure. That means it is p
 | 4_latex_source       | Here we will have the latex source files. I highly recommend that you use latex to write your research. |
 |5_submission|This folder will contain all the submission files. It is a good practice to keep all the submission files in a separate folder and review them before submitting.|
 |6_logs |This folder will contain daily logs for the work that we do in the project|
-|7_meetings|  |
+|7_meetings|All the meetings will be documented in this folder|
 
 **Note: See the readme file inside the folder for more details.**
 

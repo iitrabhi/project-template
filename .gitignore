@@ -417,7 +417,6 @@ build\
 .pyre/
 *.h5
 *.xdmf
-*.csv
 .local/
 .jupyter/
 jitfailure*/

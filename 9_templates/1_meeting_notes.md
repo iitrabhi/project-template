@@ -1,14 +1,13 @@
-<% tp.file.rename("Meeting - " + tp.date.now()) %>
-```
+---
 Date: 
 Participants:
-```
-
+---
+<% tp.file.rename("Meeting - " + tp.date.now()) %>
 ## Agenda
-- [ ] Write agenda before meeting
-
+- [ ] Write the agenda before the meeting.
+ 
 ## Minutes
-- [ ] Take notes during meeting
+- [ ] Take notes during the meeting.
 
 ## Action Items
-- [ ] Set action items after meeting and share with everyone
+- [ ] Set action items after the meeting and share them with everyone.

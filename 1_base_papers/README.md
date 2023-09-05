@@ -6,5 +6,5 @@ The papers that form the foundation for your research are kept in this folder.  
 |1_paper_name|This is the most important paper|
 | 2_paper_name |This paper has an explanation of certain topics that you didn't understand in 1_paper_name.|
 | 3_paper_name |This paper has an explanation of certain topics that you didn't understand in 1_paper_name or 2_paper_name.|
-| 4_paper_name |This paper has an explanation of certain topics that you didn't understand in 1_paper_name or 2_paper_name or 3_paper_name.|
+| 4_paper_name |This paper has an explanation of certain topics that you didn't understand in 1_paper_name or 2_paper_name or 3_paper_name. |
 

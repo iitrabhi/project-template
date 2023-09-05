@@ -7,7 +7,7 @@ This folder will contain all the submission files.  It is a good practice to kee
 | 2_cover_letter.pdf    | A cover letter for your submission.                          |
 | 3_metadata.md         | This file should contain all the supplementary text you need for the submission. See the sample file provided in this repository for detail. |
 
-**Note: There are multiple other kinds of files that are required for submission but may vary as per the selected journal. See the journal's website for more details and include all of them in this folder.**
+**Note: Multiple other kinds of files are required for submission but may vary as per the selected journal. See the journal's website for more details and include them in this folder.**
 
 ## Submission checklist
 
@@ -16,8 +16,8 @@ This folder will contain all the submission files.  It is a good practice to kee
 3. All the reviewers are cited in the manuscript.
 4. The manuscript is spell-checked and grammar-checked.
 5. Each highlight is less than 100 characters.
-6. There is consistency in symbols, i.e. you have not used different symbols for the same entity.
-7. All the symbols used, follow the nomenclature guidelines.
+6. There is consistency in symbols, i.e., you have not used different symbols for the same entity.
+7. All the symbols used follow the nomenclature guidelines.
 8. All the cross-references are correct.
 
 ---
@@ -34,20 +34,20 @@ This folder will contain all the submission files.  It is a good practice to kee
 
 **Here are general guidelines before you submit your paper to the journal.**
 
-- **Highlights.** These should be less than 100 characters per bullet point and should properly convey all the contributions, originality, and values of the paper. If required, you can also add your findings to the highlight, but they are not necessary.
-- **Abstract.** Your abstract must clearly convey the novelties of your paper and highlight the primary contributions in such a manner that are easy to understand for the reviewer.
-- **Conclusion.** A reviewer will go directly to the conclusion after the abstract to check if the article is worth his time or not. Understand that this is your opportunity to bring forward the main motivation and contributions of your work.
+- **Highlights.** These should be less than 100 characters per bullet point and properly convey all the contributions, originality, and values of the paper. If required, you can also add your findings to the highlight, but they are unnecessary.
+- **Abstract.** Your abstract must clearly convey the novelties of your paper and highlight the primary contributions in such a manner that is easy to understand for the reviewer.
+- **Conclusion.** A reviewer will go directly to the conclusion after the abstract to check whether the article is worth his or her time. Understand that this is your opportunity to bring forward the main motivation and contributions of your work.
 - **Figures.** Check whether all figures are clear and properly convey the idea for which they were made.
-- **Tables.** Check the table headings and values for any kind of inconsistency.
-- **Captions.** Check whether all captions properly summarize the figure and table. Also, check if the inference presented will help the reviewer understand the figure better. It is your responsibility to make it as easy as possible for the reviewer to understand your work.
+- **Tables.** Check the table headings and values for any inconsistency.
+- **Captions.** Check whether all captions properly summarize the figure and table. Also, check if the inference presented will help the reviewer understand the figure better. You are responsible for making it as easy as possible for the reviewer to understand your work.
 - **Cross-reference.** Thoroughly check all the references in the main text. Do they point to their intended entity or not?
-- **Symbols.** Check for consistency of symbols. It is a good idea first to make a list of symbols used and then go through the article to see if everything is in order. 
+- **Symbols.** Check for consistency of symbols. It is a good idea first to list the symbols used and then review the article to see if everything is in order. 
 - **Main Text.** Finally, read the main text and thoroughly check it for spelling and grammar mistakes.
 
 ---
 
 Every submission has two destinations:
 
-- **Review:** If the reviewers like your paper, most likely, they will ask for a review. Once you incorporate all the reviews, you have to prepare a `rebuttal` outlining how you have answered all of their queries. The source files for the rebuttal are provided in the 4_latex_source/9_rebuttal folder.
-- **Reject:** You have to find a different journal that would better suit your research and submit it there.
+- **Review:** If the reviewers like your paper, most likely, they will ask for a review. Once you incorporate all the reviews, you must prepare a rebuttal outlining how you have answered their queries. The source files for the rebuttal are provided in the 4_latex_source/9_rebuttal folder.
+- **Reject:** You must find a different journal to suit your research better and submit it there.
 

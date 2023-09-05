@@ -3,9 +3,9 @@ This folder will contain all the submission files.  It is a good practice to kee
 
 | Name                  | Description                                                  |
 | --------------------- | ------------------------------------------------------------ |
-| 1_manuscript_file.pdf | This is the main pdf file for your submission. Copy and paste this from the 4_latex_source folder and review it before submitting to the journal. |
+| 1_manuscript_file.pdf |This is the main pdf file for your submission. Copy and paste this from the 4_latex_source folder and review it before submitting it to the journal.|
 | 2_cover_letter.pdf    | A cover letter for your submission.                          |
-| 3_metadata.md         | This file should contain all the supplementary text you need for the submission. See the sample file provided in this repository for detail. |
+| 3_metadata.md         |This file should contain all the supplementary text you need for the submission. See the sample file provided in this repository for details.|
 
 **Note: Multiple other kinds of files are required for submission but may vary as per the selected journal. See the journal's website for more details and include them in this folder.**
 

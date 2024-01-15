@@ -36,5 +36,38 @@
 
 
 .HyperMD-header-2{
-    color: #f0f0f0
+    color: #f0f0f0;
 }
+
+.cm-s-obsidian .cm-line.HyperMD-header {
+    padding-bottom: 8px;
+}
+
+.multi-select-pill{
+  background-color: #b8525c;
+  border-radius: 8px;
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-top: 2px;
+  color: #fff !important;
+}
+
+.cm-active{
+  background-color: #3b4252 !important;
+  border-radius: 6px;
+  color: #fff;
+}
+
+img{
+  border-radius: 6px;
+}
+
+.metadata-container{
+  background-color: #171f29;
+  border-radius: 0.4em;
+  border: 0px solid #90bfe2;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px;
+}
+

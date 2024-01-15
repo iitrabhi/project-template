@@ -2,9 +2,11 @@
   "accentColor": "",
   "textFontFamily": "Bitter",
   "baseFontSize": 20,
-  "cssTheme": "Atom",
+  "cssTheme": "Obsidian Nord",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "quote"
-  ]
+  ],
+  "nativeMenus": false,
+  "translucency": false
 }

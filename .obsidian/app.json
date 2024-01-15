@@ -6,5 +6,13 @@
   "attachmentFolderPath": "./attachments",
   "spellcheck": true,
   "showInlineTitle": false,
-  "readableLineLength": true
+  "promptDelete": false,
+  "readableLineLength": true,
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -4,9 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {"markdown.styles": [
-		"markdown.css"
-	],
-	"editor.wordWrap": "on",
-"markdown.preview.fontSize":16}
+	"settings": {
+		"markdown.styles": ["markdown.css"],
+		"markdown.preview.fontSize":16,
+		"notebook.markup.fontSize": 14,
+		"workbench.colorCustomizations": {
+			"foreground": "#949494"
+		},
+		"workbench.colorTheme": "Mariana Pro (Cool)"
+	}
 }

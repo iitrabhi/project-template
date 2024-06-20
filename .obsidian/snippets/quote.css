@@ -71,3 +71,71 @@ img{
   padding: 20px;
 }
 
+
+.metadata-add-button{
+  display: none;
+  }
+  
+  .kanban-plugin__item-title{
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .kanban-plugin__item-title a{
+   color: #f9ae58;
+  }
+  
+  .kanban-plugin__meta-value-wrapper{
+    color: #bbb;
+  }
+  
+  .kanban-plugin__lane-header-wrapper{
+  border: 0px;
+  }
+  .kanban-plugin__item-button-wrapper{
+    border: 0px;
+  }
+  .kanban-plugin__new-item-button{
+    box-shadow: none !important;
+  }
+  .kanban-plugin__item-title-wrapper{
+    border-bottom: 0px;
+  }
+  .kanban-plugin__meta-table{
+    border: 0px !important;
+  }
+  .kanban-plugin__meta-value-wrapper{
+    border: 0px !important;
+  }
+  
+  .kanban-plugin__item{
+    border-radius: 8px !important;
+    box-shadow: 1px 2px 9px 2px rgba(20,20,20,0.1);
+  }
+  .kanban-plugin__item-content-wrapper{
+    padding: 8px;
+  }
+  .kanban-plugin__lane-title p{
+    font-size: 20px;
+    padding-top: 4px;
+    font-weight: 400;
+      color: #bbb;
+  }
+  
+  .kanban-plugin__lane-grip svg {
+      display: none; /* Hide the existing SVG */
+  }
+  
+  .kanban-plugin__lane-grip svg {
+      display: none; /* Hide the existing SVG */
+  }
+  
+  .kanban-plugin__lane-grip::before {
+      content: '';
+      display: inline-block;
+      width: 24px; /* Adjust the width as needed */
+      height: 24px; /* Adjust the height as needed */
+      background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23bbb" d="M9.343 18.657a1 1 0 0 1-.707-1.707l4.95-4.95-4.95-4.95a1 1 0 0 1 1.414-1.414l5.657 5.657a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 0 1-.707.293z"/></svg>');
+      background-size: contain; /* Ensure the SVG scales correctly */
+      vertical-align: middle; /* Align the symbol vertically */
+      color: #ddd;
+  }

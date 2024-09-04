@@ -9,5 +9,3 @@ Participants:
 ## Minutes
 - [ ] Take notes during the meeting.
 
-## Action Items
-- [ ] Set action items after the meeting and share them with everyone.

@@ -1,3 +1,5 @@
 {
-  "folder": "3_logs"
+  "folder": "3_logs",
+  "template": "5_admin/3_templates/5_daily_note",
+  "autorun": true
 }

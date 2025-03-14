@@ -158,3 +158,15 @@ border: 0px;
   padding-top: 8px;
 }
 
+  .canvas-edges path.canvas-display-path {
+    stroke: #fffb007d;
+  }
+  .canvas-edges polygon.canvas-path-end {
+    fill: #fffb007d;
+    stroke: #fffb007d;
+  }
+
+  .canvas-node-container {
+    background-color: #1a1a1a81;
+    border: 2px solid #1a1a1a;
+  }

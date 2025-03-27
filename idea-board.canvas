@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"cc301267cb148c88","x":-380,"y":-200,"width":250,"height":60,"type":"text","text":"project"},
+		{"id":"4c20405ee29be4a7","x":-27,"y":-200,"width":250,"height":60,"type":"text","text":"keyword 2"},
+		{"id":"98a502a1634798db","x":-27,"y":-100,"width":250,"height":60,"type":"text","text":"keyword 3"},
+		{"id":"56988383ba4ecca6","x":-27,"y":-300,"width":250,"height":60,"type":"text","text":"keyword 1"}
+	],
+	"edges":[
+		{"id":"0e30777de941de70","fromNode":"cc301267cb148c88","fromSide":"right","toNode":"56988383ba4ecca6","toSide":"left"},
+		{"id":"7bebf6cbe58cf9bc","fromNode":"cc301267cb148c88","fromSide":"right","toNode":"4c20405ee29be4a7","toSide":"left"},
+		{"id":"9298d873ecb46918","fromNode":"cc301267cb148c88","fromSide":"right","toNode":"98a502a1634798db","toSide":"left"}
+	]
+}

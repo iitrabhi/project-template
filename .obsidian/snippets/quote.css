@@ -8,9 +8,9 @@
   padding-bottom: 16px;
 }
 
-.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before, .markdown-source-view.mod-cm6 .cm-blockquote-border:before{
-    border-left: 0px ;
-
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote:before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border:before {
+  border-left: 0px;
 }
 
 .cm-formatting-list.cm-formatting-list-ul {
@@ -20,12 +20,12 @@
   margin-right: 16px;
 }
 
-.cm-formatting.cm-formatting-list.cm-formatting-list-ol.cm-list-1{
+.cm-formatting.cm-formatting-list.cm-formatting-list-ol.cm-list-1 {
   margin-right: 16px;
 }
 
-.cm-line{
-  color:#acacac
+.cm-line {
+  color: #acacac;
 }
 
 /* Change the color and make bold text */
@@ -34,16 +34,15 @@
   /* text-decoration: underline; */
 }
 
-
-.HyperMD-header-2{
-    color: #f0f0f0;
+.HyperMD-header-2 {
+  color: #f0f0f0;
 }
 
 .cm-s-obsidian .cm-line.HyperMD-header {
-    padding-bottom: 8px;
+  padding-bottom: 8px;
 }
 
-.multi-select-pill{
+.multi-select-pill {
   background-color: #b8525c;
   border-radius: 8px;
   padding-left: 12px;
@@ -52,17 +51,17 @@
   color: #fff !important;
 }
 
-.cm-active{
+.cm-active {
   background-color: #3b4252 !important;
   border-radius: 6px;
   color: #fff;
 }
 
-img{
+img {
   border-radius: 6px;
 }
 
-.metadata-container{
+.metadata-container {
   background-color: #171f29;
   border-radius: 0.4em;
   border: 0px solid #90bfe2;
@@ -71,102 +70,120 @@ img{
   padding: 20px;
 }
 
-.metadata-add-button{
-display: none;
+.metadata-add-button {
+  display: none;
 }
 
-.kanban-plugin__item-title{
+.kanban-plugin__item-title {
   font-size: 18px;
   font-weight: 500;
 }
-.kanban-plugin__item-title a{
- color: #f9ae58;
+.kanban-plugin__item-title a {
+  color: #f9ae58;
 }
 
-.kanban-plugin__meta-value-wrapper{
+.kanban-plugin__meta-value-wrapper {
   color: #bbb;
 }
 
-.kanban-plugin__lane-header-wrapper{
-border: 0px;
-}
-.kanban-plugin__item-button-wrapper{
+.kanban-plugin__lane-header-wrapper {
   border: 0px;
 }
-.kanban-plugin__new-item-button{
+.kanban-plugin__item-button-wrapper {
+  border: 0px;
+}
+.kanban-plugin__new-item-button {
   box-shadow: none !important;
 }
-.kanban-plugin__item-title-wrapper{
+.kanban-plugin__item-title-wrapper {
   border-bottom: 0px;
 }
-.kanban-plugin__meta-table{
+.kanban-plugin__meta-table {
   border: 0px !important;
 }
-.kanban-plugin__meta-value-wrapper{
+.kanban-plugin__meta-value-wrapper {
   border: 0px !important;
 }
 
-.kanban-plugin__item{
+.kanban-plugin__item {
   border-radius: 8px !important;
-  box-shadow: 1px 2px 9px 2px rgba(20,20,20,0.1);
+  box-shadow: 1px 2px 9px 2px rgba(20, 20, 20, 0.1);
 }
-.kanban-plugin__item-content-wrapper{
+.kanban-plugin__item-content-wrapper {
   padding: 8px;
 }
-.kanban-plugin__lane-title p{
+.kanban-plugin__lane-title p {
   font-size: 20px;
   padding-top: 4px;
   font-weight: 400;
-    color: #bbb;
+  color: #bbb;
 }
 
 .kanban-plugin__lane-grip svg {
-    display: none; /* Hide the existing SVG */
+  display: none; /* Hide the existing SVG */
 }
 
 .kanban-plugin__lane-grip svg {
-    display: none; /* Hide the existing SVG */
+  display: none; /* Hide the existing SVG */
 }
 
 .kanban-plugin__lane-grip::before {
-    content: '';
-    display: inline-block;
-    width: 24px; /* Adjust the width as needed */
-    height: 24px; /* Adjust the height as needed */
-    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23bbb" d="M9.343 18.657a1 1 0 0 1-.707-1.707l4.95-4.95-4.95-4.95a1 1 0 0 1 1.414-1.414l5.657 5.657a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 0 1-.707.293z"/></svg>');
-    background-size: contain; /* Ensure the SVG scales correctly */
-    vertical-align: middle; /* Align the symbol vertically */
-    color: #ddd;
+  content: "";
+  display: inline-block;
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23bbb" d="M9.343 18.657a1 1 0 0 1-.707-1.707l4.95-4.95-4.95-4.95a1 1 0 0 1 1.414-1.414l5.657 5.657a1 1 0 0 1 0 1.414l-5.657 5.657a1 1 0 0 1-.707.293z"/></svg>');
+  background-size: contain; /* Ensure the SVG scales correctly */
+  vertical-align: middle; /* Align the symbol vertically */
+  color: #ddd;
 }
 
-.kanban-plugin__item-metadata-wrapper .kanban-plugin__meta-table tr:nth-child(1) .kanban-plugin__meta-value{
+.kanban-plugin__item-metadata-wrapper
+  .kanban-plugin__meta-table
+  tr:nth-child(1)
+  .kanban-plugin__meta-value {
   padding-bottom: 8px;
 }
 
-.kanban-plugin__item-metadata-wrapper .kanban-plugin__meta-table tr:nth-child(2) .kanban-plugin__meta-value  {
+.kanban-plugin__item-metadata-wrapper
+  .kanban-plugin__meta-table
+  tr:nth-child(2)
+  .kanban-plugin__meta-value {
   /* CSS styles here */
-  background-color: #f958583b;  /* example: setting background color to light grey */
-  color: #fff;  /* setting text color to dark grey */
-  font-weight: bold;  /* making the text bold */
+  background-color: #f958583b; /* example: setting background color to light grey */
+  color: #fff; /* setting text color to dark grey */
+  font-weight: bold; /* making the text bold */
   padding: 8px;
   border-radius: 4px;
   display: inline; /* Ensures it's behaving as an inline element */
   white-space: nowrap;
 }
 
-.kanban-plugin__item-metadata-wrapper .kanban-plugin__meta-table tr:nth-child(3) .kanban-plugin__meta-value{
+.kanban-plugin__item-metadata-wrapper
+  .kanban-plugin__meta-table
+  tr:nth-child(3)
+  .kanban-plugin__meta-value {
   padding-top: 8px;
 }
 
-  .canvas-edges path.canvas-display-path {
-    stroke: #fffb007d;
-  }
-  .canvas-edges polygon.canvas-path-end {
-    fill: #fffb007d;
-    stroke: #fffb007d;
-  }
+.kanban-plugin__meta-row {
+  margin-bottom: 8px;
+}
 
-  .canvas-node-container {
-    background-color: #1a1a1a81;
-    border: 2px solid #1a1a1a;
-  }
+.table-height-adjust th,
+.table-height-adjust tr {
+  height: 2.5em !important;
+}
+
+.canvas-edges path.canvas-display-path {
+  stroke: #fffb007d;
+}
+.canvas-edges polygon.canvas-path-end {
+  fill: #fffb007d;
+  stroke: #fffb007d;
+}
+
+.canvas-node-container {
+  background-color: #1a1a1a81;
+  border: 2px solid #1a1a1a;
+}

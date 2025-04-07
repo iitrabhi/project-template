@@ -7,7 +7,8 @@
 	"settings": {
 		"markdown.styles": ["markdown.css"],
 		"markdown.preview.fontSize":16,
-		"notebook.markup.fontSize": 14,
+		"notebook.markup.fontSize": 18,
+		"notebook.markup.fontFamily": "Bitter",
 		"workbench.colorCustomizations": {
 			"foreground": "#949494"
 		},

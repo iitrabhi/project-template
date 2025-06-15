@@ -1,93 +1,102 @@
-\documentclass[10pt,a4paper, oneside]{article}
+\documentclass[preprint,review,10pt]{elsarticle}
 % Packages ------------------------------------------------------------------
-	\usepackage[a4paper,left=3cm,right=3cm,top=3cm,bottom=3cm]{geometry}
-
-    \usepackage{authblk}
-	\usepackage{graphicx}
-	\usepackage{lmodern}
-	\usepackage{lineno,amstext,amssymb,bm}
-	\usepackage{mathtools} % For underbrace
-	\usepackage[dvipsnames]{xcolor} % To set text color
-	\definecolor{light-gray}{gray}{0.95}
-
-	\usepackage{amsthm}
-
-	\theoremstyle{remark}
-	\newtheorem*{remark}{Remark}
-
-	\usepackage{enumitem}
-	\usepackage{lipsum}
-
-	\usepackage{booktabs}
-	\usepackage{tabu}
-	\providecommand{\keywords}[1]{\textbf{{Keywords:}} #1}
-
-	\setlength {\marginparwidth }{2cm}
-	%--------------------------------------------------------------------------
-	%% Custom Commands
-	%--------------------------------------------------------------------------
-	\newcommand{\disp}{\boldsymbol{u}}
-	\newcommand{\dmg}{\theta}
-	\newcommand{\xvec}{\boldsymbol{x}}
-	\newcommand{\dd}[1]{\mathrm{d}#1}
-	\newcommand{\straint}{\boldsymbol{\epsilon}}
-	\newcommand{\stresst}{\boldsymbol{\sigma}}
-	%--------------------------------------------------------------------------
-	%% bibliography styles
-	%--------------------------------------------------------------------------
-	\usepackage{float}
-	\usepackage{natbib}
-	\usepackage[bookmarks=true,colorlinks=true,linkcolor=blue,citecolor=red,backref=page]{hyperref}
-	\pdfstringdefDisableCommands{\let\uppercase\relax}
-	\bibliographystyle{abbrvnat}
-
-	\makeatletter
-	\AtBeginDocument{\def\@citecolor{red}}
-	\makeatother
-
-	%\biboptions{sort&compress}
-	%--------------------------------------------------------------------------
-
-	\usepackage[nameinlink,capitalize]{cleveref}
+    \usepackage[a4paper,left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+    \usepackage[right]{showlabels} % Comment this before submitting
+    \usepackage{lineno}
+    %--------------------------------------------------------------------------
+    % Essential Packages
+    %--------------------------------------------------------------------------
+    \usepackage[parfill]{parskip}
+    \usepackage[english]{babel}
+    \usepackage{lmodern, amstext, amssymb, bm, amsthm, mathtools, xcolor, graphicx}
+    \usepackage[format=plain, labelfont={bf,it}, textfont=it]{caption}
+    \usepackage{subcaption, enumitem, booktabs, tabu, tabularx, algpseudocode, algorithm2e}
+    %--------------------------------------------------------------------------
+    %% Custom Commands
+    %--------------------------------------------------------------------------
+    \newcommand{\disp}{\boldsymbol{u}}
+    \newcommand{\xvec}{\boldsymbol{x}}
+    \newcommand{\dd}[1]{\mathrm{d}#1}
+    %--------------------------------------------------------------------------
+    %% Bibliography Styles
+    %--------------------------------------------------------------------------
+    \usepackage{float}
+    \usepackage{natbib}
+    \bibliographystyle{unsrtnat}
+    \usepackage[bookmarks=true,colorlinks=true,linkcolor=blue,citecolor=red]{hyperref}
+    \pdfstringdefDisableCommands{\let\uppercase\relax}
+    \makeatletter
+    \AtBeginDocument{\def\@citecolor{red}}
+    \makeatother
+    \biboptions{sort&compress}
+    %--------------------------------------------------------------------------
+    \usepackage[nameinlink,capitalize]{cleveref}
+    \journal{Elsevier}
+    
 \begin{document}
+
 % Front Matter --------------------------------------------------------------
-	\title{This is the title of our paper}
-	\author[1]{Abhinav Gupta}
-	\author[1]{Rajib Chowdhury}
-	\author[1]{Anupam Chakrabarti}
-	\affil[1]{Department of Civil Engineering, Indian Institute of Technology Roorkee, India}
 
-	\thispagestyle{empty}
-	\newpage
+\begin{frontmatter}
 
-	\maketitle
-	\setcounter{page}{1}
+\title{The title of the research article}
+    
+    \author[1]{Author One}
+    \author[1]{Author Two}
+    \author[2]{Author Three\texorpdfstring{\corref{cor1}}{}}
+    \cortext[cor1]{Corresponding author. Email: email@email.com}
+    
 
-	\begin{abstract}
-		Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. This is a sample statement.`'
-	\end{abstract}
-	\keywords{Keyword 1, Keyword 2, Keyword 3, Keyword 4, Keyword 5}
-% Introduction --------------------------------------------------------------
-	\section{Introduction}
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry \citet{gupta55lineCodeLargescale2020}. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries \citep{guptaAutoadaptiveSubsteppingAlgorithm2020a,mandalLengthScaleInsensitive2020a}, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    \affiliation[1]{%
+     Organization One, Organization Address
+    }
+    
+    \affiliation[2]{%
+      Organization Two, Organization Address
+    }
+        
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry \cref{sec:formulation}. Lorem Ipsum  has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum \cref{sec:conclusion}.
-% Formulation ---------------------------------------------------------------
-	\section{Variational formulations}
-	\label{sec:formulation}
+\begin{highlights}
+\item Please list your hypotheses for the paper in bullet points, clearly stating the expected relationships and outcomes you predict to observe in your numerical experiments. Without a clear hypothesis, the study could lack direction and purpose, making it challenging to draw meaningful conclusions or contribute effectively to the body of scientific knowledge.
+\item ... 
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-% Conclusion ----------------------------------------------------------------
-	\section{Conclusion}
-	\label{sec:conclusion}
+\end{highlights}
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-% Appendix ------------------------------------------------------------------
-	\appendix
-	\section{Some additional stuff}\label{sec:appenix_a}
+\begin{abstract}
+% Abstract content here
+In draft phase, it’s essential to concisely summarize your research using the following structure:
 
-	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-% References ----------------------------------------------------------------
-	% \section*{References}
-    \bibliography{bibliography}
+\textbf{Motivation:} Begin by stating the background of your study. Explain what prompted you to explore this topic and why it’s important within your field.
+
+\textbf{Purpose:} Clearly define the main objective of your paper. What specific problem are you addressing, and what do you aim to achieve?
+
+\textbf{Methodology:} Briefly describe the methods or approaches you used to conduct your research. Include any significant techniques, tools, or processes that were crucial to your study.
+
+\textbf{Originality:} Highlight what makes your methodology or approach unique. Explain how it differs from existing studies and contributes new insights or perspectives.
+
+\textbf{Value:} Articulate the significance of your work. Discuss the potential impact, applications, or benefits that arise from your original contributions.
+
+\textbf{Findings:} Summarize the key results or conclusions of your research. Provide a snapshot of what you discovered and its relevance to the field.
+
+
+\end{abstract}
+
+
+
+\begin{keyword}
+% Keywords here
+Keyword1 \sep Keyword2 \sep Keyword3
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+\input{demo}
+
+% \section{Introduction}
+% \section{Formulation}
+% \section{Numerical experiments}
+% \section{Conclusion}
+
+\bibliography{bibliography}
 \end{document}
